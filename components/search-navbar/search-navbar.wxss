@@ -1,0 +1,22 @@
+/* components/search-navbar/search-navbar.wxss */
+.placeholder-box {
+  width: 100%;
+  background-color: #fff;
+}
+.navbar {
+  background: red;
+  position: fixed;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+.content {
+  height: 100%;
+  padding: 0 30rpx;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.content_item:nth-child(n + 2) {
+  margin-left: 30rpx;
+}

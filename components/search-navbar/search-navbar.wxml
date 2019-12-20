@@ -1,0 +1,9 @@
+<!-- components/search-navbar/search-navbar.wxml -->
+<view class="placeholder-box" style="height:{{topbarHeight}}px"></view>
+<view class="navbar" style="height: {{navbarHeight}}px;top:{{toolsBarHeight}}px">
+  <view class="content" style="width:{{contentWidth}}px">
+    <view class="content_item left-arrow" wx:if="{{back}}">Back</view>
+    <view class="content_item title" wx:if="{{title}}">{{title}}</view>
+    <view class="content_item search" wx:if="{{search}}">搜索</view>
+  </view>
+</view>
